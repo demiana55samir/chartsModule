@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { LineComponent } from './line/line.component';
 import { RadialComponent } from './radial/radial.component';
 import { MultipleRadialComponent } from './multiple-radial/multiple-radial.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgApexchartsModule } from 'ng-apexcharts';
 
 
 @NgModule({
@@ -13,7 +15,10 @@ import { MultipleRadialComponent } from './multiple-radial/multiple-radial.compo
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    NgApexchartsModule,
   ],
   exports: [
     LineComponent,

@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef} from '@angular/core';
-import { ChartOptions } from '../../../app.component';
+import { ChartOptions } from '../../../core/modules/types';
 
 
 @Component({
